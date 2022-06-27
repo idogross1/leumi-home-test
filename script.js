@@ -36,3 +36,4 @@ function getWeatherForecast() {
 getWeatherForecast();
 console.log('changes in dev branch');
 console.log('changes in branch1');
+console.log('another change in branch1');
