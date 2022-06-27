@@ -1,7 +1,7 @@
 const axios = require('axios');
 require('dotenv').config();
-const weatherService = require('./services/weather.service.js');
-const csvService = require('./services/csv.service.js');
+const weatherService = require('./services/weather.service');
+const csvService = require('./services/csv.service');
 
 const cities = ['jerusalem', 'new york', 'dubai', 'lisbon', 'oslo', 'paris', 'berlin', 'athens', 'seoul', 'singapore'];
 
@@ -34,3 +34,5 @@ function getWeatherForecast() {
 }
 
 getWeatherForecast();
+console.log('changes in dev branch');
+console.log('changes in branch1');
