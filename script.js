@@ -37,3 +37,4 @@ getWeatherForecast();
 console.log('changes in dev branch');
 console.log('changes in branch1');
 console.log('another change in branch1');
+console.log('change in main will branch1 be updated?');
